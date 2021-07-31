@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Information</title>
+    <link rel="stylesheet" href="css\homepage.css">
+    <script src="js/homepage.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <!-- top bar----------------------------------------------------------------------------------- -->
+      <div id="top_bar">
+      <img src="assets\logo.svg" id="logo"> 
+      <ul class="topbar_ul">
+        <li class="top_bar_tiles" id="drop_button" onclick="drop()">Articles<img src="assets/caret-down-fill.svg" id="down_image" style="position: relative; top:3px;"></li>
+          <li class="top_bar_tiles"><a href="#top_bar"><img src="assets/house-fill.svg">Home</a></li>
+          <li class="top_bar_tiles"><a href="#news_section"><img src="assets/newspaper.svg">News</a></li>
+          <li class="top_bar_tiles" onclick="window.scrollTo(0,0)"><a href="#contact_section"><img src="assets/person-lines-fill.svg">Contact</a></li>
+          <li class="top_bar_tiles"><a href="#about_us_section"><img src="assets/file-person-fill.svg">About</a></li>
+          <li class="top_bar_tiles"><a href="#donate_section"><img src="assets/bank2.svg">Donate</a></li>
+          <li class="top_bar_tiles"><a href="#login/Signup"><img src="assets/person-circle.svg">Login</a></li>
+      </ul>
+   </div>
+   <hr>
+  
+   <!-- main body here --------------------------------------------------------------------------------- -->
+   <div class="main_background" style="background-image: url(assets/background.svg);">
+    
+    <div class="search">
+      <form action="">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    <div id="main_background_text">
+      <p id="main_background_head">Hello Information seekers</p>
+    </div>
+    <div id="drop_down" style="display: none;">
+        <div class="row">
+          <div class="column">
+            <h3>Programming</h3>
+            <a href="#" class="drop_links">c</a>
+            <a href="#" class="drop_links">c++</a>
+            <a href="#" class="drop_links">java</a>
+          </div>
+          <div class="column">
+            <h3>Arts</h3>
+            <a href="#" class="drop_links">Link 1</a>
+            <a href="#" class="drop_links">Link 2</a>
+            <a href="#" class="drop_links">Link 3</a>
+          </div>
+          
+          <div class="column">
+            <h3>Engineering</h3>
+            <a href="#" class="drop_links">Link 1</a>
+            <a href="#" class="drop_links">Link 2</a>
+            <a href="#" class="drop_links">Link 3</a>
+          </div>
+          <div class="column">
+            <h3>Engineering</h3>
+            <a href="#" class="drop_links">Link 1</a>
+            <a href="#" class="drop_links">Link 2</a>
+            <a href="#" class="drop_links">Link 3</a>
+          </div>
+          <div class="column">
+            <h3>Engineering</h3>
+            <a href="#" class="drop_links">Link 1</a>
+            <a href="#" class="drop_links">Link 2</a>
+            <a href="#" class="drop_links">Link 3</a>
+          </div>
+          <div class="column">
+            <h3>Engineering</h3>
+            <a href="#" class="drop_links">Link 1</a>
+            <a href="#" class="drop_links">Link 2</a>
+            <a href="#" class="drop_links">Link 3</a>
+          </div>
+          <div class="column">
+            <h3>Engineering</h3>
+            <a href="#" class="drop_links">Link 1</a>
+            <a href="#" class="drop_links">Link 2</a>
+            <a href="#" class="drop_links">Link 3</a>
+          </div>
+          <div class="column">
+            <h3>Engineering</h3>
+            <a href="#" class="drop_links">Link 1</a>
+            <a href="#" class="drop_links">Link 2</a>
+            <a href="#" class="drop_links">Link 3</a>
+          </div>
+        </div>
+      </div>
+      </div>
+     </div>  
+    
+    </div>
+    <!-- news section here ----------------------------------------------------------------------------- -->
+    <div class="news_div" id="news_section">
+      <p class="news_head">News <img src="assets/newspaper.png" id="news_icon"></p>
+      <ul class="news_list">
+        <li class="news_list_items">Enchancing HomePage...</li>
+        <li class="news_list_items">Changed Site name and icon </li>
+  
+  
+      </ul>
+    </div>
+    <!-- contact details starts here ------------------------------------------------------------------- -->
+    <div class="contact_details" id="contact_section">
+      <br>
+      <p class="section_head">Contact Us</p>
+      <p class="basic_site_text">You can contact us to various plateforms and can  mails for bussiness purposes </p>
+      <form class="contact_form">
+        Name<input class="query" type="text" placeholder="Name"><br> 
+        Email<input class="query" type="text" placeholder="Email"><br> 
+        Feedback<input class="query" id="query_feedback" type="text" placeholder="Query / feedback">
+        <input  id="submit_button" type="submit" placeholder="Submit">
+      </form>
+     </div>
+
+
+     <!-- donate section  ----------------------------------------------------------------------------------->
+     <div id="donate_section">
+       <p class="donate_head">Donate and Support</p>
+     </div>
+    <!-- About Us section  -->
+    <div class="about_us_section" id="about_us_section">
+      <p class="about_us_head">About us</p>
+      <p class="about_us_text">
+        we are students  pursuing Engineering from Indore Institute of Science and Technology,Indore(M.P). we are currently in 3rd Year . This website 
+      </p>
+    <ul class="contact_icons_ul">
+      <li class="contact_icons"><a href="https://www.facebook.com/" target="-blank"><img src="assets/facebook.svg" style="width: 23px; height: 23px; "></a></li>
+      <li class="contact_icons"><a href="https://www.instagram.com/" target="-blank" ><img src="assets/instagram.svg" style="width: 23px; height: 23px;"></a></li>
+      <li class="contact_icons"><a href="https://www.twitter.com/" target="-blank" ><img src="assets/twitter.svg" style="width: 23px; height: 23px;"></a></li>
+      <li class="contact_icons"><a href="https://www.youtube.com/" target="-blank" ><img src="assets/youtube.svg" style="width: 23px; height: 23px;"></a></li>
+      <li class="contact_icons"><a href="https://www.whatsapp.com/" target="-blank" ><img src="assets/whatsapp.svg" style="width: 23px; height: 23px;"></a></li>
+      <li class="contact_icons"><a href="https://www.linkedin.com/" target="-blank" ><img src="assets/linkedin.svg" style="width: 23px; height: 23px;"></a></li>
+    </ul>
+    <p class="copyright">©copyright rights reserved 2021</p>
+  </div>
+  
+    </body>
+  </html>
