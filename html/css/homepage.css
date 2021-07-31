@@ -285,3 +285,24 @@ h3{
   text-shadow: black 1px 1px 12px;
   font-size: 2em;
 }
+.icons_social{
+  width: 24px;
+  height: 24px;
+}
+#facebook:hover{
+    width:30px;
+    height: 30px;
+}
+#instagram:hover{
+  position: relative;
+  top: 10px;
+  width:35px;
+  height: 35px;
+}
+
+#linkedin:hover{
+  position:relative;
+  top:5px;
+  width:30px;
+  height: 30px;
+}
