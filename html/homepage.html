@@ -7,9 +7,6 @@
     <title>Project Information</title>
     <link rel="stylesheet" href="css\homepage.css">
     <script src="js/homepage.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -31,10 +28,10 @@
    <!-- main body here --------------------------------------------------------------------------------- -->
    <div class="main_background" style="background-image: url(assets/background.svg);">
     
-    <div class="search">
+    <div class="search" id="search_box" onfocus="search_onfocus()">
       <form action="">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
+        <input type="text" placeholder="Search.." name="search" id="search_input">
+        <button type="submit"><i class="fa fa-search" id="search_input_button"></i></button>
       </form>
     </div>
     <div id="main_background_text">
@@ -44,9 +41,11 @@
         <div class="row">
           <div class="column">
             <h3>Programming</h3>
-            <a href="#" class="drop_links">c</a>
+            <a href="content_pages/c_programming.html" class="drop_links">c</a>
             <a href="#" class="drop_links">c++</a>
+            <a href="#" class="drop_links">c#</a>
             <a href="#" class="drop_links">java</a>
+            <a href="#" class="drop_links">Python</a>
           </div>
           <div class="column">
             <h3>Arts</h3>
@@ -97,6 +96,7 @@
      </div>  
     
     </div>
+
     <!-- news section here ----------------------------------------------------------------------------- -->
     <div class="news_div" id="news_section">
       <p class="news_head">News <img src="assets/newspaper.png" id="news_icon"></p>
@@ -107,6 +107,7 @@
   
       </ul>
     </div>
+
     <!-- contact details starts here ------------------------------------------------------------------- -->
     <div class="contact_details" id="contact_section">
       <br>
@@ -120,7 +121,6 @@
       </form>
      </div>
 
-
      <!-- donate section  ----------------------------------------------------------------------------------->
      <div id="donate_section">
        <p class="donate_head">Donate and Support</p>
@@ -132,15 +132,14 @@
         we are students  pursuing Engineering from Indore Institute of Science and Technology,Indore(M.P). we are currently in 3rd Year . This website 
       </p>
     <ul class="contact_icons_ul">
-      <li class="contact_icons"><a href="https://www.facebook.com/" target="-blank"><img src="assets/facebook.svg" id="facebook" class="icons_social" onmouseover="this.src='assets/icons8-facebook.svg'" onmouseout="this.src='assets/facebook.svg'" ></a></li>
-      <li class="contact_icons"><a href="https://www.instagram.com/" target="-blank" ><img src="assets/instagram.svg" id="instagram" class="icons_social" onmouseover="this.src='assets/instagram-icon-colorful-by-Vexels.svg'" onmouseout="this.src='assets/instagram.svg'"></a></li>
-      <li class="contact_icons"><a href="https://www.twitter.com/" target="-blank" ><img src="assets/twitter.svg"  class="icons_social" onmouseover="this.src='assets/icons8-twitter.svg'" onmouseout="this.src='assets/twitter.svg'"></a></li>
-      <li class="contact_icons"><a href="https://www.youtube.com/" target="-blank" ><img src="assets/youtube.svg"  class="icons_social" onmouseover="this.src='assets/icons8-youtube-play-button.svg'" onmouseout="this.src='assets/youtube.svg'" ></a></li>
-      <li class="contact_icons"><a href="https://www.whatsapp.com/" target="-blank" ><img src="assets/whatsapp.svg"  class="icons_social" onmouseover="this.src='assets/icons8-whatsapp.svg'" onmouseout="this.src='assets/whatsapp.svg'" ></a></li>
-      <li class="contact_icons"><a href="https://www.linkedin.com/" target="-blank"  ><img src="assets/linkedin.svg" id="linkedin"  class="icons_social"  onmouseover="this.src='assets/icons8-linkedin.svg'" onmouseout="this.src='assets/linkedin.svg'"  ></a></li>
+      <li class="contact_icons"><a href="https://www.facebook.com/" target="-blank"><img src="assets/facebook.svg" id="facebook" class="icons_social" onmouseover="this.src='assets/facebook_color.svg'" onmouseout="this.src='assets/facebook.svg'" ></a></li>
+      <li class="contact_icons"><a href="https://www.instagram.com/" target="-blank" ><img src="assets/instagram.svg" id="instagram" class="icons_social" onmouseover="this.src='assets/instagram_color.svg'" onmouseout="this.src='assets/instagram.svg'"></a></li>
+      <li class="contact_icons"><a href="https://www.twitter.com/" target="-blank" ><img src="assets/twitter.svg"  class="icons_social" onmouseover="this.src='assets/twitter_color.svg'" onmouseout="this.src='assets/twitter.svg'"></a></li>
+      <li class="contact_icons"><a href="https://www.youtube.com/" target="-blank" ><img src="assets/youtube.svg"  class="icons_social" onmouseover="this.src='assets/youtube_color.svg'" onmouseout="this.src='assets/youtube.svg'" ></a></li>
+      <li class="contact_icons"><a href="https://www.whatsapp.com/" target="-blank" ><img src="assets/whatsapp.svg"  class="icons_social" onmouseover="this.src='assets/whatsapp_color.svg'" onmouseout="this.src='assets/whatsapp.svg'" ></a></li>
+      <li class="contact_icons"><a href="https://www.linkedin.com/" target="-blank"  ><img src="assets/linkedin.svg" id="linkedin"  class="icons_social"  onmouseover="this.src='assets/linkedin_color.svg'" onmouseout="this.src='assets/linkedin.svg'"  ></a></li>
     </ul>
     <p class="copyright">©copyright rights reserved 2021</p>
   </div>
-  
     </body>
   </html>
