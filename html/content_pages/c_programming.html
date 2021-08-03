@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Information</title>
     <link rel="stylesheet" href="css/c_programming.css">
-    <script src="js/homepage.js"></script>
+    <link rel="stylesheet" href="css/basic_layout.css">
+    <script src="js/dropdown.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -34,12 +35,26 @@
         <button type="submit"><i class="fa fa-search" id="search_input_button"></i></button>
       </form>
     </div>
-
+    <div class="content_head">
+      <img src="../assets/c-programming.svg" id="c-programming-icon">
+       programming language
+   </div>
+   <!-- menu for navigation about learning sites apps  youtube etc -->
+   <ul id="menu_list">
+      <li class="menu_list_items"><a href="#" class="section_links">Introduction</a></li>
+      <li class="menu_list_items"><a href="#" class="section_links">websites</a></li>
+      <li class="menu_list_items"><a href="#" class="section_links">Youtube channels</a></li>
+      <li class="menu_list_items"><a href="#" class="section_links">Mobile Apps</a></li>
+      <li class="menu_list_items"><a href="#" class="section_links">Pratice Websites</a></li>
+      <li class="menu_list_items"><a href="#" class="section_links">IDE code editor</a></li>
+  </ul>
+  
+<!-- drop down box here ---------------------------------------------------------------------------------- -->
     <div id="drop_down" style="display: none;">
         <div class="row">
           <div class="column">
             <h3>Programming</h3>
-            <a href="content_pages/c_programming.html" class="drop_links">c</a>
+            <a href="content_pages/c_programming.html" class="drop_links" id="selected">c</a>
             <a href="#" class="drop_links">c++</a>
             <a href="#" class="drop_links">c#</a>
             <a href="#" class="drop_links">java</a>
@@ -92,8 +107,10 @@
       </div>
       </div>
      </div>  
-    
     </div>
+    <div class="basic_text" id="intro_c">
+      <b>C</b>  is a general-purpose, procedural computer <b> language supporting structured programming </b>, lexical variable scope, and recursion, with a static type system. By design, C provides constructs that map efficiently to typical machine instructions. It has found lasting use in applications previously coded in assembly language. Such applications include operating systems and various application software for computer architectures that range from supercomputers to PLCs and embedded systems.<a id="readmore" href="https://en.wikipedia.org/wiki/C_(programming_language)">readmore.</a>
+     </div>
 
     <!-- news section here ----------------------------------------------------------------------------- -->
     <div class="news_div" id="news_section">
