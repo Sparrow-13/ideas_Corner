@@ -22,13 +22,13 @@
   transform: scale(1.5);
 }
 .basic_text{
+  margin: 20px;
   font-size: 20px;
   text-align: left;
 }
 
 #readmore{
-  color:black;
-  text-shadow: none;
+  color:#ffb100;
   font: 10px;
   text-decoration:underline;
 
@@ -45,10 +45,66 @@
   background: #ffb100;
   border-radius: 12px;
   padding: 12px;
+  font-weight: 550;
   border: 1px #be8602 solid;
   box-shadow: rgb(88, 87, 87) 2px 2px 4px;
 }
 .section_links{
   color:#000;
   text-shadow: grey 5px 5px 8px;
+}
+.intro_head{
+  font-size: 50px;
+  font-family: arial;
+  text-shadow: #ffb100 2px 2px 2px;
+  font-weight: 600;
+}
+.website_text{
+  text-align: center;
+  font-size: 21px;
+}
+.website_head{
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+}
+.websites_links{
+  font-weight: 700;
+  text-decoration: none;
+}
+.websites_links:hover{
+  color:#ffb100;
+  background-color: rgba(0, 0, 0, 0.3); 
+  padding: 10px ;
+  border-radius: 11px;
+} 
+#w3schools{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top:19px;
+  left:12px;
+}
+#programmiz{
+  width: 200px;
+  height: 80px;
+  position: relative;
+  top: 20px;
+}
+#sololearn{
+  width: 150px;
+}
+#coursera{
+  width: 120px;
+}
+#udemy{
+  width: 120px;
+  position: relative;
+  top:12px;
+}
+#studytonight{
+  width: 130px;
+}
+#beginnersbook{
+  width: 190px;
 }
