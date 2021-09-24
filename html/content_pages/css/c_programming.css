@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "carter one";
+  src: url("../../assets/font/CarterOne-Regular.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body{
+  background-color:#efefef;
+  font-family: 'Open sans';
+}
+
 #selected{
   background:#ffb100;
   border-radius: 12px;
@@ -55,8 +67,9 @@
 }
 .intro_head{
   font-size: 50px;
-  font-family: arial;
-  text-shadow: #ffb100 2px 2px 2px;
+  font-family: 'Carter One','Times New Roman';
+  color:red;
+  text-shadow: black 1px 1px;
   font-weight: 600;
 }
 .website_text{
@@ -71,11 +84,12 @@
 .websites_links{
   font-weight: 700;
   text-decoration: none;
+  font-family: 'carter one';
 }
-.websites_links:hover{
+ .websites_links:hover{
   color:#ffb100;
-  background-color: rgba(0, 0, 0, 0.3); 
   padding: 10px ;
+  text-shadow: #fff;
   border-radius: 11px;
 } 
 #w3schools{
@@ -92,7 +106,10 @@
   top: 20px;
 }
 #sololearn{
-  width: 150px;
+  position: relative;
+  width: 200px;
+  top:5px;
+  left: 4px;
 }
 #coursera{
   width: 120px;
@@ -107,4 +124,141 @@
 }
 #beginnersbook{
   width: 190px;
+}
+.drop_links:hover{
+  background:#ffb100;
+  border-radius:10px;
+}
+
+.content_text{
+  font-family: 'Open Sans' , cursive;
+}
+
+#websites {
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+#youtube_channels{
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+#mobile_apps{
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+#practice_sites{
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 12px;
+} 
+#mobile_ide{
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.link_text{
+  color:red;
+}
+
+.link_text:hover{
+  color: black;;
+}
+
+.website_links_c{
+  color:grey;
+}
+.website_links_c:hover{
+  color:#ffb100;
+}
+
+#programming_hub_logo{
+  background-color:blue;
+  padding: 5px;
+  vertical-align: middle;
+  overflow: hidden;
+  height: 50px;
+  border-radius: 20px;
+}
+#hacker_rank_logo{
+  transform: scale(0.8);
+  position: relative;
+  left:-20px;
+}
+#coding_ninja_logo{
+  height: 40px;
+  color: #000;
+}
+#leetcode_logo{
+  width: 60px;
+  position: relative;
+  background-color: #000;
+  border-radius: 10px;
+}
+#leetcode_logo_text{
+    color: black;
+    font-weight : 300;
+    position: relative;
+    left:10px;
+}
+#vscode_logo{
+  width: 50px;
+}
+#devcpp_logo{
+  width: 70px;
+  height: 70px;
+}
+#clion_logo{
+  width: 200px;
+}
+#netbeans_logo{
+  width:70px
+}
+#atom_logo{
+  background-color: #000;
+  padding:7px;
+}
+#eclipse_logo{
+  width:70px;
+}
+#sublime_logo{
+  width: 300px;
+  background-color: #000;
+  padding: 10px;
+  border-radius:10px;
+}
+#codeblocks_logo{
+  width: 70px;
+}
+#decoder_logo{
+  width: 70px;
+  border-radius: 10px;
+}
+#cppdroid_logo{
+  width: 70px;
+}
+#cxxdroid_logo{
+  width: 50px;
+}
+#codeonmobile_logo{
+  width: 50px;
+}
+#anaconda_logo{
+  width: 50px;
 }
