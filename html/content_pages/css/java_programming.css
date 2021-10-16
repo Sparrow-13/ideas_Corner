@@ -1,0 +1,291 @@
+@font-face {
+    font-family: "carter one";
+    src: url("../../assets/font/CarterOne-Regular.ttf");
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+  
+  
+  body{
+    background-color:#efefef;
+    font-family: 'Open sans';
+  }
+  
+  #selected{
+    background:#ffb100;
+    border-radius: 12px;
+    color:black;
+    font-size: 20px;
+  }
+  .content_head{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 120px;
+    padding: 20px;
+    margin: 0;
+    text-transform: capitalize;
+    text-shadow: black 1px 1px 5px;
+  }
+  #java_icon{
+    position: relative;
+ 
+    width: 100px;
+    height: 10px;
+    font-weight: bolder;
+    background-color: #efefef;
+    /* transform: scale(); */
+  }
+  .basic_text{
+    margin: 20px;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  #readmore{
+    color:#ffb100;
+    font: 10px;
+    text-decoration:underline;
+  
+  }
+  #menu_list{
+    margin:30px;
+    list-style-type: none;
+    position: relative;
+    top:120px;
+    text-align:center;
+  }
+  .menu_list_items{
+    display: inline;
+    background: #ffb100;
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: 550;
+    border: 1px #be8602 solid;
+    box-shadow: rgb(88, 87, 87) 2px 2px 4px;
+  }
+  .section_links{
+    color:#000;
+    text-shadow: grey 5px 5px 8px;
+  }
+  .intro_head{
+    font-size: 50px;
+    font-family: 'Carter One','Times New Roman';
+    color:red;
+    text-shadow: black 1px 1px;
+    font-weight: 600;
+  }
+  .website_text{
+    text-align: center;
+    font-size: 21px;
+  }
+  .website_head{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .websites_links{
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'carter one';
+  }
+   .websites_links:hover{
+    color:#ffb100;
+    padding: 10px ;
+    text-shadow: #fff;
+    border-radius: 11px;
+  } 
+  #w3schools{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top:19px;
+    left:12px;
+  }
+  #programmiz{
+    width: 200px;
+    height: 80px;
+    position: relative;
+    top: 20px;
+  }
+  #sololearn{
+    position: relative;
+    width: 200px;
+    top:5px;
+    left: 4px;
+  }
+  #coursera{
+    width: 120px;
+  }
+  #udemy{
+    width: 120px;
+    position: relative;
+    top:12px;
+  }
+  #studytonight{
+    width: 130px;
+  }
+  #beginnersbook{
+    width: 190px;
+  }
+  .drop_links:hover{
+    background:#ffb100;
+    border-radius:10px;
+  }
+  
+  .content_text{
+    font-family: 'Open Sans' , cursive;
+  }
+  
+  #websites {
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 12px;
+  }
+  
+  #youtube_channels{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 12px;
+  }
+  
+  #mobile_apps{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 12px;
+  }
+  
+  #practice_sites{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 12px;
+  } 
+  #mobile_ide{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 12px;
+  }
+  
+  .link_text{
+    color:red;
+  }
+  
+  .link_text:hover{
+    color: black;;
+  }
+  
+  .website_links_c{
+    color:grey;
+  }
+  .website_links_c:hover{
+    color:#ffb100;
+  }
+  
+  #programming_hub_logo{
+    background-color:blue;
+    padding: 5px;
+    vertical-align: middle;
+    overflow: hidden;
+    height: 50px;
+    border-radius: 20px;
+  }
+  #hacker_rank_logo{
+    transform: scale(0.8);
+    position: relative;
+    left:-20px;
+  }
+  #coding_ninja_logo{
+    height: 40px;
+    color: #000;
+  }
+  #leetcode_logo{
+    width: 60px;
+    position: relative;
+    background-color: #000;
+    border-radius: 10px;
+  }
+  #leetcode_logo_text{
+      color: black;
+      font-weight : 300;
+      position: relative;
+      left:10px;
+  }
+  #vscode_logo{
+    width: 50px;
+  }
+  #devcpp_logo{
+    width: 70px;
+    height: 70px;
+  }
+  #clion_logo{
+    width: 200px;
+  }
+  #netbeans_logo{
+    width:70px
+  }
+  #atom_logo{
+    background-color: #000;
+    padding:7px;
+  }
+  #eclipse_logo{
+    width:70px;
+  }
+  #sublime_logo{
+    width: 300px;
+    background-color: #000;
+    padding: 10px;
+    border-radius:10px;
+  }
+  #codeblocks_logo{
+    width: 70px;
+  }
+  #decoder_logo{
+    width: 70px;
+    border-radius: 10px;
+  }
+  #cppdroid_logo{
+    width: 70px;
+  }
+  #cxxdroid_logo{
+    width: 50px;
+  }
+  #codeonmobile_logo{
+    width: 50px;
+  }
+  #anaconda_logo{
+    width: 50px;
+  }.intro_head{
+    text-align: center;
+    color:#ffb100;
+    text-shadow: black  2px 2px 2px;
+  }
+  .website_head{
+    color:black;
+    font-weight: 600 ;
+  }
+  .websites_links{
+    color:black;
+  }
+  
+  .hr_thin{
+    height: 4px;
+    width: 90%;
+    margin: 50px;
+    background-color: #ffb100;
+    border-style: solid;
+    border: #ffb100;
+  }
+  sub{
+    color:#ffb100;
+  }
