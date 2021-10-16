@@ -19,6 +19,7 @@
   .content_head{
     text-align: center;
     font-size: 40px;
+    
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
     position: relative;
@@ -28,10 +29,11 @@
     text-transform: capitalize;
     text-shadow: black 1px 1px 5px;
   }
-  #c-programming-icon{
+  #cpp_icon{
     position: relative;
-    top: 8px;
-    transform: scale(1.5);
+    top: 0px;
+    width: 70px;
+    /* transform: scale(); */
   }
   .basic_text{
     margin: 20px;
@@ -287,3 +289,4 @@
   sub{
     color:#ffb100;
   }
+ 
